@@ -16,7 +16,7 @@
             <img class="logoAlura" src="/img/logoAlura.png" alt="Logo da Alura">
             
             <div class="decodificador-contact-container">
-                <img src="img/github-logo.svg" width="24" height="24" alt="Logo do Github">
+                <img src="img/github-logo.svg" width="35" height="35" alt="Logo do Github">
                 <a href="https://github.com/edielson-assis/edielson-assis">/edielson-assis</a>
             </div>
         </nav>
@@ -31,16 +31,17 @@
             </div>
 
             <div class="botoes">
-                <button class="btn-encriptar">Criptografar</button>
-                <button class="btn-desencriptar">Descriptografar</button>
+                <button class="btn-encriptar" onclick="validaBtnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="validaBtnDesencriptar()">Descriptografar</button>
             </div>
         </secction>
 
         <secction>
             <textarea class="mensagem" cols="20" rows="10"></textarea>
-            <button class="btn-copiar">Copiar</button>
+            <button class="btn-copiar" onclick="validaBtnCpiar()">Copiar</button>
         </secction>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
