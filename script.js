@@ -53,7 +53,7 @@ function verificar() {
     if (mensagem.value.trim() !== '') {
         mensagem.style.backgroundImage = 'none';
     } else {
-        mensagem.style.backgroundImage = 'url(/img/boneco.png)';
+        mensagem.style.backgroundImage = 'url(img/boneco.png)';
     }
 };
 
