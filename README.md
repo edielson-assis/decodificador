@@ -7,7 +7,7 @@
 
 <br>
 
-> Status do Projeto: ⚠️ (Em desenvolvimento)
+> Status do Projeto: :heavy_check_mark: (Finalizado)
 
 <br>
 
@@ -57,10 +57,6 @@ Em seguida, abra o projeto no navegador.
 - [Html](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 - [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
-## Tarefas em aberto
-
-:memo: Deixar o projeto responsivo
 
 ## Contribuindo 🤝
 

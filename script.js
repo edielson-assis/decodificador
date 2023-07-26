@@ -50,12 +50,18 @@ function btnCopiar() {
 
 function verificar() {
     mensagem.value = textArea.value;
-    if (mensagem.value.trim() !== '') {
-        mensagem.style.backgroundImage = 'none';
+
+    if (window.matchMedia("(max-width: 767px)").matches) {
+        mensagem.style.backgroundImage = 'none'; 
     } else {
-        mensagem.style.backgroundImage = 'url(img/boneco.png)';
+        if (mensagem.value.trim() !== '') {
+            mensagem.style.backgroundImage = 'none';
+        } else {
+            mensagem.style.backgroundImage = 'url(img/boneco.png)';
+        }
     }
-};
+}
+
 
 function validaBtnEncriptar() {
     if (textArea.value !== '') {

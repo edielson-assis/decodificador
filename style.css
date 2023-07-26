@@ -25,14 +25,15 @@ nav a {
     margin-right: 10px;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
     color: unset;
 }
 
 .decodificador-contact-container {
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
 
 .decodificador-contact-container img {
@@ -52,10 +53,13 @@ main {
     text-transform: lowercase;
 }
 
-::placeholder {color: #0A3871;}
-    .text-area:focus {
-        outline: none;
-    }
+::placeholder {
+    color: #0A3871;
+}
+
+.text-area:focus {
+    outline: none;
+}
 
 .mensagem {
     background: white;
@@ -115,6 +119,75 @@ main {
 
 .informacao {
     color: #495057;
-    font-size:18px;
+    font-size: 18px;
     margin-top: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    main {
+        margin: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logoAlura {
+        width: 20px;
+        padding-top: 0;
+    }
+
+    .text-area {
+        width: 90%;
+    }
+
+    .informacao {
+        font-size: medium;
+    }
+
+    .botoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-desencriptar,
+    .btn-encriptar {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .mensagem {
+        background-image: none;
+        background-size: 100%;
+        margin-left: 0;
+        width: 90%;
+        flex-direction: column;
+        margin-top: 5px;
+        padding-right: 10px;
+        position: relative;
+        height: 300px;
+        margin-right: 5px;
+    }
+
+    .mensagem {
+        grid-template-columns: repeat(20, 1fr);
+
+        @media (max-width: 767px) {
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+        }
+    }
+
+    .btn-copiar {
+        position: absolute;
+        width: 90%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-copiar {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
 }
