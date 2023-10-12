@@ -48,7 +48,7 @@ O Decodificador de Mensagem é uma aplicação web que permite ao usuário cript
 Faça um fork do projeto, após isso, abra o terminal do git bash, na pasta onde deseja salvar o projeto, e digite o seguinte comando: 
 
 ```
-git@github.com:edielson-assis/decodificador.git
+git clone git@github.com:edielson-assis/decodificador.git
 ```
 Em seguida, abra o projeto no navegador.
 
